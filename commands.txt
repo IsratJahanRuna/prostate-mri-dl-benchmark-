@@ -1,0 +1,9 @@
+python densenet_universal.py    --dataset ADC --data_root "data" --out_dir "outputs/densenet/ADC"     --epochs 20 --seed 42 --batch_size 32 --lr 1e-3
+python densenet_universal.py    --dataset DWI --data_root "data" --out_dir "outputs/densenet/DWI"     --epochs 20 --seed 42 --batch_size 32 --lr 1e-3
+python densenet_universal.py    --dataset T2  --data_root "data" --out_dir "outputs/densenet/T2"     --epochs 20 --seed 42 --batch_size 32 --lr 1e-3
+python resnet_universal.py      --dataset ADC --data_root "data" --out_dir "outputs/resnet/ADC"       --epochs 20 --seed 42 --batch_size 32 --lr 1e-3
+python resnet_universal.py      --dataset DWI --data_root "data" --out_dir "outputs/resnet/DWI"       --epochs 20 --seed 42 --batch_size 32 --lr 1e-3
+python resnet_universal.py      --dataset T2  --data_root "data" --out_dir "outputs/resnet/T2"       --epochs 20 --seed 42 --batch_size 32 --lr 1e-3
+python efficientnet_universal.py --dataset ADC --data_root "data" --out_dir "outputs/efficientnet/ADC" --epochs 20 --seed 42 --batch_size 32 --lr 1e-3
+python efficientnet_universal.py --dataset DWI --data_root "data" --out_dir "outputs/efficientnet/DWI" --epochs 20 --seed 42 --batch_size 32 --lr 1e-3
+python efficientnet_universal.py --dataset T2  --data_root "data" --out_dir "outputs/efficientnet/T2" --epochs 20 --seed 42 --batch_size 32 --lr 1e-3
