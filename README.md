@@ -12,20 +12,6 @@ commands.txt – List of CLI commands that define the full experimental pipeline
 
 run_all_commands.bat – Convenience script (Windows) to execute all commands from commands.txt sequentially.
 
-Installation
-Clone the repository:
-
-bash
-git clone https://github.com/IsratJahanRuna/prostate-mri-dl-benchmark-.git
-cd prostate-mri-dl-benchmark-
-Create and activate a virtual environment (recommended), then install dependencies:
-
-bash
-pip install -r requirements.txt
-Usage
-To reproduce the full set of experiments defined in this repository, run:
-
-bash
 # On Windows
 run_all_commands.bat
 Alternatively, you can execute individual experiments by running the corresponding lines from commands.txt directly in your terminal.
