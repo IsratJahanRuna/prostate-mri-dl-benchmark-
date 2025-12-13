@@ -12,7 +12,8 @@ commands.txt – List of CLI commands that define the full experimental pipeline
 
 run_all_commands.bat – Convenience script (Windows) to execute all commands from commands.txt sequentially.
 
-# On Windows
+Usage
+To reproduce the full set of experiments defined in this repository, run:
 run_all_commands.bat
 Alternatively, you can execute individual experiments by running the corresponding lines from commands.txt directly in your terminal.
 
